@@ -1,0 +1,8 @@
+*.psd
+*.pdf
+*.ipynb
+test
+spec
+features
+doc
+public
