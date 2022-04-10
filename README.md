@@ -31,16 +31,16 @@ I have built a deep learning model which detects the real time emotions of stude
 ## Model Creation
 1) Using Deep Face
 DeepFace is a deep learning facial recognition system created by a research group at Facebook. It identifies human faces in digital images. The program employs a nine-layer neural network with over 120 million connection weights and was trained on four million images uploaded by Facebook users.The Facebook Research team has stated that the DeepFace method reaches an accuracy of 97.35% ± 0.25% on Labeled Faces in the Wild (LFW) data set where human beings have 97.53%. This means that DeepFace is sometimes more successful than the human beings.
-![](https://github.com/Mdanish2020/Face_Emotion_Recognition/blob/main/Deep_Face.jpg)
+![](https://github.com/Sharath2021/-LIVE-CLASS-MONITORING-SYSTEM-Face-Emotion-Recognition-/blob/main/Deep_Face.jpg)
 - The actual emotion in the Picture was ANGRY Face but using DeepFace I found the prediction is HAPPY.
 
 ## Using Transfer Learning
 Transfer learning (TL) is a research problem in machine learning (ML) that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. For example, knowledge gained while learning to recognize cars could apply when trying to recognize trucks. This area of research bears some relation to the long history of psychological literature on transfer of learning, although formal ties between the two fields are limited. From the practical standpoint, reusing or transferring information from previously learned tasks for the learning of new tasks has the potential to significantly improve the sample efficiency of a reinforcement learning agent.
-![](https://github.com/Mdanish2020/Face_Emotion_Recognition/blob/main/transfer_learning.png)
+![](https://github.com/Sharath2021/-LIVE-CLASS-MONITORING-SYSTEM-Face-Emotion-Recognition-/blob/main/transfer_learning.png)
 
 ## Using Deep Learning CNN
 In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of deep neural network, most commonly applied to analyze visual imagery. They are also known as shift invariant or space invariant artificial neural networks (SIANN), based on the shared-weight architecture of the convolution kernels or filters that slide along input features and provide translation equivariant responses known as feature maps.Counter-intuitively, most convolutional neural networks are only equivariant, as opposed to invariant, to translation. They have applications in image and video recognition, recommender systems, image classification, image segmentation, medical image analysis, natural language processing, brain-computer interfaces, and financial time series.CNNs are regularized versions of multilayer perceptrons. Multilayer perceptrons usually mean fully connected networks, that is, each neuron in one layer is connected to all neurons in the next layer. The "full connectivity" of these networks make them prone to overfitting data. Typical ways of regularization, or preventing overfitting, include: penalizing parameters during training (such as weight decay) or trimming connectivity (skipped connections, dropout, etc.) CNNs take a different approach towards regularization: they take advantage of the hierarchical pattern in data and assemble patterns of increasing complexity using smaller and simpler patterns embossed in their filters. Therefore, on a scale of connectivity and complexity, CNNs are on the lower extreme. Convolutional networks were inspired by biological processes in that the connectivity pattern between neurons resembles the organization of the animal visual cortex. Individual cortical neurons respond to stimuli only in a restricted region of the visual field known as the receptive field. The receptive fields of different neurons partially overlap such that they cover the entire visual field.CNNs use relatively little pre-processing compared to other image classification algorithms. This means that the network learns to optimize the filters (or kernels) through automated learning, whereas in traditional algorithms these filters are hand-engineered. This independence from prior knowledge and human intervention in feature extraction is a major advantage.
-![](https://github.com/Mdanish2020/Face_Emotion_Recognition/blob/main/CNN.png)
+![](https://github.com/Sharath2021/-LIVE-CLASS-MONITORING-SYSTEM-Face-Emotion-Recognition-/blob/main/CNN.png)
 
 - The training gave the accuracy of 75.05% and test accuracy of 65.19%. It seems excellent. So, I save the model and the detection i got from live video was excellent.
 
@@ -51,8 +51,8 @@ In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of
 - Thus I decided that I will deploy the model.
 
 ## Loss Accuracy Plot
-![](![download (2)](https://user-images.githubusercontent.com/91681571/162620932-ec33a26a-fe21-429c-8467-36c9f46acc62.png)
-)
+(![download (2)](https://user-images.githubusercontent.com/91681571/162620932-ec33a26a-fe21-429c-8467-36c9f46acc62.png)
+
 
 ## Realtime Local Video Face Detection
 I created two patterns for detecting and predicting single faces and as well as multiple faces using OpenCV videocapture in local. For Webapp , OpenCV can’t be used. Thus, using Streamlit-Webrtc for front-end application.
