@@ -50,7 +50,8 @@ In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of
 - Thus I decided that I will deploy the model.
 
 ## Loss Accuracy Plot
-![](https://github.com/Mdanish2020/Face_Emotion_Recognition/blob/main/optimizer.png)
+![](![download (2)](https://user-images.githubusercontent.com/91681571/162620932-ec33a26a-fe21-429c-8467-36c9f46acc62.png)
+)
 
 ## Realtime Local Video Face Detection
 I created two patterns for detecting and predicting single faces and as well as multiple faces using OpenCV videocapture in local. For Webapp , OpenCV can’t be used. Thus, using Streamlit-Webrtc for front-end application.
