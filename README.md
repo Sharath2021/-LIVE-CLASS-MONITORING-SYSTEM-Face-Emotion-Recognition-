@@ -65,7 +65,11 @@ Heroku Link:- https://livefaceemotiondetection.herokuapp.com/
 Streamlit Link:- https://share.streamlit.io/sharath2021/-live-class-monitoring-system-face-emotion-recognition-/main/app.py
 
 ## Conclusion:
-Finally I build the webapp and deployed which has training accuracy of 75.05% and test accuracy of 65.19% .
+* Finally I build the webapp and deployed which has training accuracy of 75.05% and test accuracy of 65.19% .
+* The application is able to detect face and predict the right expression while checking it on a webcam(localhost).
+* The front-end of the model was made using streamlit for webapp and running well on local webapp link.
+* Finally, we successfully deployed the Streamlit WebApp on Heroku and Streamlit share that runs on a web server.
+*Finally, through this monitoring system teachers can analyze the students' change in emotions during online classes and address the problems faced my students and change their way of teaching if necessary.
 
 If failed to access the website and just wanted to see how the webapp works, then visit this link:-
 
