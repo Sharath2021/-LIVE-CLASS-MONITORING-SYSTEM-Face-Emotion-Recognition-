@@ -40,4 +40,30 @@ Transfer learning (TL) is a research problem in machine learning (ML) that focus
 
 ## Using Deep Learning CNN
 In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of deep neural network, most commonly applied to analyze visual imagery. They are also known as shift invariant or space invariant artificial neural networks (SIANN), based on the shared-weight architecture of the convolution kernels or filters that slide along input features and provide translation equivariant responses known as feature maps.Counter-intuitively, most convolutional neural networks are only equivariant, as opposed to invariant, to translation. They have applications in image and video recognition, recommender systems, image classification, image segmentation, medical image analysis, natural language processing, brain-computer interfaces, and financial time series.CNNs are regularized versions of multilayer perceptrons. Multilayer perceptrons usually mean fully connected networks, that is, each neuron in one layer is connected to all neurons in the next layer. The "full connectivity" of these networks make them prone to overfitting data. Typical ways of regularization, or preventing overfitting, include: penalizing parameters during training (such as weight decay) or trimming connectivity (skipped connections, dropout, etc.) CNNs take a different approach towards regularization: they take advantage of the hierarchical pattern in data and assemble patterns of increasing complexity using smaller and simpler patterns embossed in their filters. Therefore, on a scale of connectivity and complexity, CNNs are on the lower extreme. Convolutional networks were inspired by biological processes in that the connectivity pattern between neurons resembles the organization of the animal visual cortex. Individual cortical neurons respond to stimuli only in a restricted region of the visual field known as the receptive field. The receptive fields of different neurons partially overlap such that they cover the entire visual field.CNNs use relatively little pre-processing compared to other image classification algorithms. This means that the network learns to optimize the filters (or kernels) through automated learning, whereas in traditional algorithms these filters are hand-engineered. This independence from prior knowledge and human intervention in feature extraction is a major advantage.
+![](https://github.com/Mdanish2020/Face_Emotion_Recognition/blob/main/CNN.png)
+- The training gave the accuracy of 77.77% and test accuracy of 66%. It seems excellent. So, I save the model and the detection i got from live video was excellent.
 
+- One drawback of the system is the some Disgust faces are showing Neutral .Because less no. of disgust faces are given to train .This may be the reason.
+
+- I thought it was a good score should improve the score.
+
+- Thus I decided that I will deploy the model.
+
+## Loss Accuracy Plot
+![](https://github.com/Mdanish2020/Face_Emotion_Recognition/blob/main/optimizer.png)
+
+## Realtime Local Video Face Detection
+I created two patterns for detecting and predicting single faces and as well as multiple faces using OpenCV videocapture in local. For Webapp , OpenCV can’t be used. Thus, using Streamlit-Webrtc for front-end application.
+
+## Deployment of Streamlit WebApp in Heroku and Streamlit
+In this repository I have made a front end using streamlit .Streamlit doesn’t provide the live capture feature itself, instead uses a third party API. I have used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku and streamlit platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku and streamlit.
+
+Heroku Link:- https://dashboard.heroku.com/apps/professor-fer-2013
+
+Streamlit Link:- https://share.streamlit.io/mdanish2020/face_emotion_recognition/main/app.py
+
+## Conclusion:
+Finally I build the webapp and deployed which has training accuracy of 77.77% and test accuracy of 66% .
+
+If failed to access the website and just wanted to see how the webapp works, then visit this link:-
+https://github.com/Mdanish2020/Face_Emotion_Recognition/blob/main/Demo%20vdo.mp4
