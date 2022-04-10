@@ -64,7 +64,7 @@ Heroku Link:- https://livefaceemotiondetection.herokuapp.com/
 Streamlit Link:- https://share.streamlit.io/sharath2021/-live-class-monitoring-system-face-emotion-recognition-/main/app.py
 
 ## Conclusion:
-Finally I build the webapp and deployed which has training accuracy of 77.77% and test accuracy of 66% .
+Finally I build the webapp and deployed which has training accuracy of 75.05% and test accuracy of 65.19% .
 
 If failed to access the website and just wanted to see how the webapp works, then visit this link:-
 
