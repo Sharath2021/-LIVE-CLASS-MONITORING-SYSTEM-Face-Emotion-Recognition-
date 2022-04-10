@@ -58,12 +58,12 @@ I created two patterns for detecting and predicting single faces and as well as 
 ## Deployment of Streamlit WebApp in Heroku and Streamlit
 In this repository I have made a front end using streamlit .Streamlit doesn’t provide the live capture feature itself, instead uses a third party API. I have used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku and streamlit platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku and streamlit.
 
-Heroku Link:- https://dashboard.heroku.com/apps/professor-fer-2013
+Heroku Link:- https://livefaceemotiondetection.herokuapp.com/
 
-Streamlit Link:- https://share.streamlit.io/mdanish2020/face_emotion_recognition/main/app.py
+Streamlit Link:- https://share.streamlit.io/sharath2021/-live-class-monitoring-system-face-emotion-recognition-/main/app.py
 
 ## Conclusion:
 Finally I build the webapp and deployed which has training accuracy of 77.77% and test accuracy of 66% .
 
 If failed to access the website and just wanted to see how the webapp works, then visit this link:-
-https://github.com/Mdanish2020/Face_Emotion_Recognition/blob/main/Demo%20vdo.mp4
+
