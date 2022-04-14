@@ -72,6 +72,6 @@ Streamlit Link:- https://share.streamlit.io/sharath2021/-live-class-monitoring-s
 * Finally, through this monitoring system teachers can analyze the students' change in emotions during online classes and address the problems faced my students and     change their way of teaching if necessary.
 
 
-## If failed to access the website and wanted to see how the model works, then visit this link: 
+## If failed to access the website and wanted to see how the model works, then visit the link below: 
 https://github.com/Sharath2021/-LIVE-CLASS-MONITORING-SYSTEM-Face-Emotion-Recognition-/blob/main/emotiondetection.mp4
 
